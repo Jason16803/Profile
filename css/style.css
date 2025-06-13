@@ -357,5 +357,5 @@ button:hover{
 }
 #myBtn:hover {
   background-color: var(--background-light);
-  color: var(--accent-color-light)
+  color: var(--accent-color-light);
 }
