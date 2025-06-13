@@ -74,22 +74,25 @@ nav{
   color: var(--accent-color-dark);
   text-decoration: none;
   background-color: transparent;
-  padding-top: 0.25rem;
   border-radius: 10px;
   font-family: "Nunito-Bold", sans-serif;
 }
 
-.menunav h1 a{
+.menunav .logonav a{
   color:var(--background-dark);
   font-size: 50px;
+  font-weight: 700;
   text-decoration: none;
   background-color: transparent;
-  padding-top: 0.25rem;
   border-radius: 10px;
   font-family: "Nunito-Bold", sans-serif;
 }
+.logonav{
+  margin-top: auto;
+  padding: 1rem;
+}
 
-header h1:hover {
+header .logonav:hover {
   animation: move 1s;
   animation-iteration-count: infinite;
 }
@@ -175,6 +178,14 @@ header h1:hover {
 
 .subnav:hover .subnav-content {
   display: flex;
+}
+
+.mesgus{
+  color: var(--accent-color-dark);
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 1rem;
 }
 
 /*Image above main content*/

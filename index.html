@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js"></script>
   <script src="https://kit.fontawesome.com/ce00246679.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Profile</title>
@@ -11,17 +12,17 @@
   <header>
     <!--navbar-->
     <nav>
-      <ul class="menunav">
-        <h1><a href="#">JH</a></h1>
+      <div class="menunav">
+        <div class="logonav"><a href="#">JH</a></div>
         <div class="subnav">
-            <button class="subnavbtn">Profile<i class="fa-solid fa-caret-down"></i></button>
-            <div class="subnav-content">
-              <a href="#bio">Bio</a>
-              <a href="#tabss">Hobbies</a>
-            </div>
+          <button class="subnavbtn">Profile<i class="fa-solid fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#bio">Bio</a>
+            <a href="#tabss">Hobbies</a>
           </div>
-        <li><a href="#footer">Contact Us</a></li>
-      </ul>
+          <a class="mesgus" href="#footer">Contact Us</a>
+        </div>
+        </div>
     </nav>
   </header>
   <!--Main content of the website-->
@@ -93,15 +94,14 @@
     <p>Leave us a message by filling out the form below</p>
 <!--Contact form-->
     <div id="contactForm">
-      <section>
         <form method="post" action="#">
           <div>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" minlength="20" required />
+            <input type="text" id="fname" minlength="20" required>
           </div>
           <div>
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" minlength="20" required />
+            <input type="text" id="lname" minlength="20" required>
           </div>
           <div>
             <label for="email">Email</label>
@@ -112,16 +112,13 @@
             <textarea id="message" cols="71" rows="10" required></textarea>
           </div>
           <div id="form-check">
-            <input type="checkbox" id="stay" />
+            <input type="checkbox" id="stay">
             <label for="stay">Sign up for future emails</label>
             <button type="submit">Submit</button>
           </div>
-            
         </form>
-      </section>
     </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">T<i class="fa-solid fa-square-caret-up"></i>P</button>
   </footer>
 </body>
-  <script type="text/javascript" src="main.js"></script>
 </html>
