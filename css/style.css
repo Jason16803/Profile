@@ -248,8 +248,7 @@ h3{
   border: 10px solid var(--accent-color-dark);
   border-top-left-radius: none;
   border-radius: 0px 0px 30px 30px;
-  background-image: linear-gradient(to bottom left,var(--accent-color-light),var(--accent-color-dark),var(--accent-color-light) )
-  
+  background-image: radial-gradient(,var(--accent-color-light),var(--accent-color-dark),var(--accent-color-light) )
 }
 .tabcontent img{
   width: 200px;
