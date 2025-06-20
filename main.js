@@ -13,7 +13,7 @@ function openMode(evt, modeName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
 
-  document.getElementById(modeName).style.display = "block";
+  document.getElementById(modeName).style.display = "grid";
   evt.currentTarget.className += " active";
 }
 document.getElementById("defaultOpen").click();
